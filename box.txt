@@ -1,0 +1,17 @@
+class Box
+{
+	//Data members
+	int length;
+	int width;
+	int height;
+	void setDimensions(int l,int b,int h)
+	{
+	length=l;
+	width=w;
+	height=h;
+	}
+	void getDimensions()
+	{
+	System.out.println(" "+length+" "+width+" "+height);
+	}
+	
